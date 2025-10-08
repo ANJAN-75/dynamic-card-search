@@ -1,0 +1,53 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #0d0d0d;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  background: #1a1a1a;
+  padding: 30px 40px;
+  border-radius: 12px;
+  text-align: center;
+  color: #fff;
+  width: 320px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+}
+
+.title {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #ddd;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 10px;
+  background: #333;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress {
+  height: 100%;
+  width: 0%; 
+  background: linear-gradient(90deg, #4cafef, #2196f3);
+  border-radius: 10px;
+  transition: width 0.3s ease;
+}
+
+.percent {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #ccc;
+}
